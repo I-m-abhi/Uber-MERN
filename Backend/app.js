@@ -22,7 +22,7 @@ app.get("/home", (req, res) => {
   res.send("hello world");
 });
 
-app.use("/users", userRoutes);
+app.use("/user", userRoutes);
 app.use("/captain", captainRoutes);
 
 module.exports = app;
